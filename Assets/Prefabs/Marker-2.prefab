@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8760127901888636659}
   - component: {fileID: 5603040356060175590}
   - component: {fileID: 7894846271569062757}
-  - component: {fileID: 4021458936461852587}
   m_Layer: 0
   m_Name: Marker-2
   m_TagString: Untagged
@@ -92,27 +91,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4021458936461852587
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8145883023692805772}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5476245754542521100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181,6 +159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meowth
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3489b51b593d4ab449d23a4f90433fe3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -191,6 +173,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3980681444419951527}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7672593246961908822}
   m_SourcePrefab: {fileID: 100100000, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
 --- !u!1 &5133788763531658845 stripped
 GameObject:
@@ -216,7 +201,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5, y: 1.5, z: 1.5}
+  m_Size: {x: 3, y: 3, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3980681444419951527
 Rigidbody:
@@ -245,6 +230,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7672593246961908822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5133788763531658845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb684ef426420a41a0eea09968f6ef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Meowth
 --- !u!4 &5509363606644464871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
