@@ -33,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 5509363606644464871}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -85.538, z: 0}
 --- !u!33 &5603040356060175590
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -163,6 +163,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 3489b51b593d4ab449d23a4f90433fe3, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -242,8 +246,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcb684ef426420a41a0eea09968f6ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Meowth
+  modelo3D: {fileID: 5868939719961210213}
 --- !u!4 &5509363606644464871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+  m_PrefabInstance: {fileID: 5476245754542521100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5868939719961210213 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1913222711082522217, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
   m_PrefabInstance: {fileID: 5476245754542521100}
   m_PrefabAsset: {fileID: 0}
