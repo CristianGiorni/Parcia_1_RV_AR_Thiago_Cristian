@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8145883023692805772}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -122,6 +122,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 8760127901888636659}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -160,6 +172,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb59740e28c6f54fbfb318f5d09ea2f, type: 3}
       propertyPath: m_Name
